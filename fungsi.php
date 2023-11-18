@@ -1,7 +1,8 @@
 <?php
-function studentday()
+function studentday($nama)
+
 {
-    echo "halo hari ini saya belajar function";
+    echo "student day $nama";
 }
 
-echo studentday();
+echo studentday("web programming");
